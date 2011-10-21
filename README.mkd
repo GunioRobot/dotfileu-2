@@ -1,1 +1,19 @@
-README
+# Installing
+
+For and clone the repo, then `cd` to the dotfiles directory, then:
+
+	./install.sh
+
+You may need to `chmod u+x install.sh` if the script isn't already executable.
+
+The install.sh script is idempotent.
+
+# Updating
+
+If your repo is in sync, your dotfiles are in sync. If new dotfiles have been added since the last time you ran the install.sh script, then running it again will symlink the new files.
+
+# Uninstalling
+
+I can't imagine a situation where I'd want to remove all of my dotfiles...
+
+If you really must, just delete the symlinks and the repo directory.
