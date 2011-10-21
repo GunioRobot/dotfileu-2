@@ -1,6 +1,6 @@
 # Installing
 
-For and clone the repository, `cd` to the dotfiles directory, then run the install script:
+Fork and clone the repository, `cd` to the dotfiles directory, then run the install script:
 
 	./install.sh
 
